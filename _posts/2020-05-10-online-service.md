@@ -3,4 +3,4 @@ title: "5/10/2020 Online Service"
 published: true
 thumbnail: "/assets/J93hxt0rFsAmq.jpg"
 ---
-The live stream has ended. An audio recording is planned to be made available By Wednesday 5/13/20.
+<a href="https://archive.org/download/sm-5-10-2020/sm%205-10-2020.mp3" download>Download MP3 Audio</a>
