@@ -5,5 +5,5 @@ thumbnail: "/assets/J93hxt0rFsAmq.jpg"
 ---
 The video will not be available until the service starts.
 
-<a href="URL_HERE" download>Click here to go to the live stream</a>
+<a href="https://www.youtube.com/watch?v=bYTVJ7zXV-8&feature=youtu.be" download>Click here to go to the live stream</a>
 
