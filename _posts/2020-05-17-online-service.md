@@ -1,5 +1,5 @@
 ---
-title: "5/17/2020 Online Service (Live Stream)"
+title: "5/17/2020 Online Service"
 published: true
 thumbnail: "/assets/J93hxt0rFsAmq.jpg"
 ---
