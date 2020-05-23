@@ -3,8 +3,9 @@ title: "5/17/2020 Online Service"
 published: true
 thumbnail: "/assets/J93hxt0rFsAmq.jpg"
 ---
+<a href="https://www.facebook.com/WorthingtonBaptistChurch/videos/240316650591605/">Video on Facebook</a>
 Video:
-<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FWorthingtonBaptistChurch%2Fvideos%2F240316650591605%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FWorthingtonBaptistChurch%2Fvideos%2F240316650591605" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
 
 Note Below video is much better audio quality to listen to:
 <audio controls>
