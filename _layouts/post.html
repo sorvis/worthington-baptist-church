@@ -14,6 +14,17 @@
       <p class="f5"><a href="/" class="d-flex flex-items-center">{% octicon chevron-left height:16 class:"mr-2 v-align-middle" fill:#0366d6 aria-label:Home %}Home</a></p>
       <h1 class="f00-light lh-condensed">{{ page.title }}</h1>
       <p class="{% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %} mb-5">Published {{ page.date | date: "%b %d, %Y"}}</p>
+      {% if page.stream %}
+        The video will not be available until the service starts.
+        <a href="{{ page.stream }}" download >Click here to go to the live stream</a>
+      {% endif %}
+      {% if page.audio %}
+      <audio controls>
+        <source src="{{ page.audio }}" type="audio/mpeg">
+        Your browser does not support the audio element.
+        </audio>
+        <a href="{{ page.audio }}" download>Download MP3 Audio</a>
+      {% endif %}
       {{ post_body }}
     </div>
   </div>
@@ -30,6 +41,17 @@
             <p class="f5"><a href="{{ site.url }}{{ site.baseurl | append:'/' }}" class="d-flex flex-items-center {% if site.style == 'dark' %}text-white{% endif %}">{% octicon chevron-left height:16 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Home %}Home</a></p>
             <h1 class="f00-light lh-condensed">{{ page.title }}</h1>
             <p class="{% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %} mb-5">Published {{ page.date | date: "%b %d, %Y"}}</p>
+            {% if page.stream %}
+              The video will not be available until the service starts.
+              <a href="{{ page.stream }}" download >Click here to go to the live stream</a>
+            {% endif %}
+            {% if page.audio %}
+            <audio controls>
+              <source src="{{ page.audio }}" type="audio/mpeg">
+              Your browser does not support the audio element.
+              </audio>
+              <a href="{{ page.audio }}" download>Download MP3 Audio</a>
+            {% endif %}
             {{ post_body }}
           </div>
         </div>
