@@ -15,7 +15,7 @@
       <h1 class="f00-light lh-condensed">{{ page.title }}</h1>
       <p class="{% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %} mb-5">Published {{ page.date | date: "%b %d, %Y"}}</p>
       {% if page.stream %}
-        <a>The video will not be available until the service starts.</a>
+        <p>The video will not be available until the service starts.</p>
         <a href="{{ page.stream }}" download >Click here to go to the live stream</a>
       {% endif %}
       {% if page.audio %}
@@ -42,7 +42,7 @@
             <h1 class="f00-light lh-condensed">{{ page.title }}</h1>
             <p class="{% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %} mb-5">Published {{ page.date | date: "%b %d, %Y"}}</p>
             {% if page.stream %}
-              <a>The video will not be available until the service starts.</a>
+              <p>The video will not be available until the service starts.</p>
               <a href="{{ page.stream }}" download >Click here to go to the live stream</a>
             {% endif %}
             {% if page.audio %}
