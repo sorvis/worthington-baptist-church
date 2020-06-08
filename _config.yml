@@ -44,7 +44,7 @@ contact:
 services:
   - name: Sunday School
     time: 9:45 am
-    description: Sunday school for children and adults. May be temporarily on hold due to the virus.
+    description: Sunday school for children and adults.
     octicon: dashboard
 
   - name: Sunday Morning
@@ -53,7 +53,6 @@ services:
 
   - name: Sunday Evening
     time: 6:00 pm
-    description: May be temporarily on hold due to the virus.
     octicon: search
 
   - name: Wednesday Prayer Meeting
