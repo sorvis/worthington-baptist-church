@@ -28,6 +28,9 @@ echo 'thumbnail: "/assets/J93hxt0rFsAmq.jpg"' >> $FILE_PATH
 echo 'audio: "https://archive.org/download/sm-'$POST_MONTH'-'$POST_DAY'-'$POST_YEAR'/SM%20'$POST_MONTH'-'$POST_DAY'-'$POST_YEAR'.mp3"' >> $FILE_PATH
 echo '---' >> $FILE_PATH
 
+git add -A && \
+git commit -m "Add service audio for "$POST_MONTH'/'$POST_DAY'/'$POST_YEAR
+
 git push --set-upstream origin $BRANCH_NAME && \
 git checkout master && \
 git branch -D $BRANCH_NAME
