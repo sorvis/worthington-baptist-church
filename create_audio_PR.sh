@@ -38,3 +38,6 @@ git commit -m "Add service audio for "$POST_MONTH'/'$POST_DAY'/'$POST_YEAR
 git push --set-upstream origin $BRANCH_NAME && \
 git checkout master && \
 git branch -D $BRANCH_NAME
+
+echo 'Click the link below to create pull request'
+echo 'https://github.com/sorvis/worthington-baptist-church/compare/'$BRANCH_NAME'?expand=1'
