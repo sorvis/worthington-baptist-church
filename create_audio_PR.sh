@@ -1,13 +1,14 @@
 #!/bin/sh
 
-git add -A && \
-git reset --hard && \
-git checkout master && \
-git pull && \
+#git add -A && \
+#git reset --hard && \
+#git checkout master && \
+#git pull && \
 
 # argument
 #ARCHIVE_LINK="https://archive.org/details/sm-6-7-2020" && \
 ARCHIVE_LINK=$1 && \
+echo "Creating PR for link: "$ARCHIVE_LINK
 
 POST_MONTH=`echo $ARCHIVE_LINK | awk -F "-" '{print $2}'` && \
 POST_DAY=`echo $ARCHIVE_LINK | awk -F "-" '{print $3}'` && \
@@ -31,6 +32,6 @@ echo '---' >> $FILE_PATH
 git add -A && \
 git commit -m "Add service audio for "$POST_MONTH'/'$POST_DAY'/'$POST_YEAR
 
-git push --set-upstream origin $BRANCH_NAME && \
-git checkout master && \
-git branch -D $BRANCH_NAME
+#git push --set-upstream origin $BRANCH_NAME && \
+#git checkout master && \
+#git branch -D $BRANCH_NAME
