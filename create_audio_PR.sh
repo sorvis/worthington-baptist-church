@@ -15,6 +15,7 @@ POST_DAY=`echo $ARCHIVE_LINK | awk -F "-" '{print $3}'` && \
 POST_YEAR=`echo $ARCHIVE_LINK | awk -F "-" '{print $4}'` && \
 
 BRANCH_NAME="add_audio_$(echo $POST_MONTH)_$(echo $POST_DAY)_$(echo $POST_YEAR)" && \
+echo "Branch name will be: "$BRANCH_NAME
 
 git branch -D $BRANCH_NAME && \
 git checkout -b $BRANCH_NAME && \
