@@ -6,7 +6,8 @@ git checkout master && \
 git pull && \
 
 # argument
-ARCHIVE_LINK="https://archive.org/details/sm-6-7-2020" && \
+#ARCHIVE_LINK="https://archive.org/details/sm-6-7-2020" && \
+ARCHIVE_LINK=$1 && \
 
 POST_MONTH=`echo $ARCHIVE_LINK | awk -F "-" '{print $2}'` && \
 POST_DAY=`echo $ARCHIVE_LINK | awk -F "-" '{print $3}'` && \
