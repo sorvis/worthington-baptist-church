@@ -22,12 +22,12 @@ git checkout -b $BRANCH_NAME && \
 FILE_NAME="$(echo $POST_YEAR)-$(printf "%02d\n" $POST_MONTH)-$(printf "%02d\n" $POST_DAY)-online-service.md" && \
 FILE_PATH="_posts/$FILE_NAME" && \
 
-echo '---' > $FILE_PATH 
-echo 'title: "'$POST_MONTH'/'$POST_DAY'/'$POST_YEAR' Online Service"' >> $FILE_PATH
+echo '---' > "$FILE_PATH"
+echo 'title: "'$POST_MONTH'/'$POST_DAY'/'$POST_YEAR' Online Service"' >> "$FILE_PATH"
 echo 'published: true' >> $FILE_PATH
-echo 'thumbnail: "/assets/J93hxt0rFsAmq.jpg"' >> $FILE_PATH
-echo 'audio: "https://archive.org/download/sm-'$POST_MONTH'-'$POST_DAY'-'$POST_YEAR'/SM%20'$POST_MONTH'-'$POST_DAY'-'$POST_YEAR'.mp3"' >> $FILE_PATH
-echo '---' >> $FILE_PATH
+echo 'thumbnail: "/assets/J93hxt0rFsAmq.jpg"' >> "$FILE_PATH"
+echo 'audio: "https://archive.org/download/sm-'$POST_MONTH'-'$POST_DAY'-'$POST_YEAR'/SM%20'$POST_MONTH'-'$POST_DAY'-'$POST_YEAR'.mp3"' >> "$FILE_PATH"
+echo '---' >> "$FILE_PATH"
 
 git add -A && \
 git commit -m "Add service audio for "$POST_MONTH'/'$POST_DAY'/'$POST_YEAR
