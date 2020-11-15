@@ -6,4 +6,4 @@ gem "jemoji"
 gem 'jekyll'
 gem 'RedCloth'
 gem 'rake'
-ruby '2.6.5'
+ruby '2.6.3'
