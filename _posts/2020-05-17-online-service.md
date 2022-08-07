@@ -1,6 +1,6 @@
 ---
 title: "5/17/2020 Online Service"
-published: true
+published: false
 thumbnail: "/assets/J93hxt0rFsAmq.jpg"
 ---
 <a href="https://www.facebook.com/WorthingtonBaptistChurch/videos/240316650591605/">Video on Facebook</a>
