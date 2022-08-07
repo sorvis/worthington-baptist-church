@@ -45,7 +45,7 @@ services:
   - name: Sunday School
     time: 9:45 am
     description: Sunday school for children and adults.
-    octicon: dashboard
+    octicon: clock
 
   - name: Sunday Morning
     time: 10:45 am
