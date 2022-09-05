@@ -1,0 +1,6 @@
+account_id = ""
+name = "worthington-baptist-church"
+type = "webpack"
+workers_dev = true
+site = { bucket = "./_site" }
+compatibility_date = "2022-08-05"
